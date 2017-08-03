@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    >
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@mipmap/lead3"
+   android:scaleType="fitXY"
+    />
+
+
+
+    <Button
+        android:id="@+id/bt_goon"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:text="点击进入"
+        android:background="@drawable/selector_button_goon"
+        android:layout_gravity="right|bottom"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#f9dbdf"
+
+        />
+</FrameLayout>

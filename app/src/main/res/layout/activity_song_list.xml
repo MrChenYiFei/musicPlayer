@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@mipmap/beijing"
+ >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+           android:layout_gravity="center"
+            android:onClick="returnSinger"
+            android:background="@mipmap/back"/>
+        <TextView
+            android:id="@+id/tv_songlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="曲目"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:textSize="30sp"
+
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="歌曲名"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="专辑"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="时长"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="大小"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+    <ListView
+        android:id="@+id/lv_song_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+
+        >
+
+    </ListView>
+
+
+</LinearLayout>
